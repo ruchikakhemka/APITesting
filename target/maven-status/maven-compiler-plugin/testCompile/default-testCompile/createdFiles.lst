@@ -1,0 +1,5 @@
+tests/CollectionsTest.class
+tests/BasicTest.class
+tests/End2EndFlow.class
+testdata/LoginData.class
+suite/SuiteManager.class

@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39b16b11-6cc6-4873-b587-017c794333eb" name="Default Changelist" comment="" />
+    <list default="true" id="39b16b11-6cc6-4873-b587-017c794333eb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/restUtil/BaseURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/restUtil/HelperMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/testconfig.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/suite/SuiteManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testdata/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BasicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/End2EndFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BasicTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,20 +32,115 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+            <state relative-caret-position="215">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/End2EndFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="72" column="4" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+            <state relative-caret-position="202">
+              <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/suite/SuiteManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/restUtil/HelperMethods.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#134#135#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#695#696#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/restUtil/BaseURL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
+              <folding>
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#291#292#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/ConfigReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/testconfig.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/BasicTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="140" column="45" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4170#4186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testdata/LoginData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -42,11 +154,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/BasicTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CollectionsTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/End2EndFlow.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testdata/LoginData.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/testconfig.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/util/ConfigReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testdata/RequestHeaders.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/restUtil/BaseURL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/restUtil/HelperMethods.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/tests/End2EndFlow.java" />
       </list>
     </option>
   </component>
@@ -63,6 +188,7 @@
     <option name="width" value="1400" />
     <option name="height" value="772" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -86,7 +212,66 @@
               <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
               <item name="APITest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APITest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APITest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -95,7 +280,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576213565881" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576433088141" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,22 +294,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BasicTest.testAllCurrencyAttribute">
-    <configuration name="BasicTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.End2EndFlow.testProductDetails">
+    <configuration name="End2EndFlow.addToCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicTest.printResponse" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="APITest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="printResponse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.End2EndFlow" />
+      <option name="METHOD_NAME" value="addToCartTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -132,11 +313,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.testAllCurrencyAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="End2EndFlow.getProducts" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="testAllCurrencyAttribute" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.End2EndFlow" />
+      <option name="METHOD_NAME" value="getProducts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +331,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.testCurrencyAttribute" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="End2EndFlow.testDeleteItem" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="testCurrencyAttribute" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.End2EndFlow" />
+      <option name="METHOD_NAME" value="testDeleteItem" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -156,11 +349,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasicTest.testLogging" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="End2EndFlow.testProductDetails" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="APITest" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BasicTest" />
-      <option name="METHOD_NAME" value="testLogging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.End2EndFlow" />
+      <option name="METHOD_NAME" value="testProductDetails" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="End2EndFlow.testViewCart" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APITest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.End2EndFlow" />
+      <option name="METHOD_NAME" value="testViewCart" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -170,11 +387,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.BasicTest.testAllCurrencyAttribute" />
-        <item itemvalue="TestNG.BasicTest.testCurrencyAttribute" />
-        <item itemvalue="TestNG.BasicTest.printResponse" />
-        <item itemvalue="TestNG.BasicTest" />
-        <item itemvalue="TestNG.BasicTest.testLogging" />
+        <item itemvalue="TestNG.End2EndFlow.testProductDetails" />
+        <item itemvalue="TestNG.End2EndFlow.getProducts" />
+        <item itemvalue="TestNG.End2EndFlow.testDeleteItem" />
+        <item itemvalue="TestNG.End2EndFlow.addToCartTest" />
+        <item itemvalue="TestNG.End2EndFlow.testViewCart" />
       </list>
     </recent_temporary>
   </component>
@@ -192,35 +409,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 09h 53m 34s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_getProducts - 2019.12.15 at 22h 19m 02s.xml">
+      <configuration name="End2EndFlow.getProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 09h 58m 18s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_testProductDetails - 2019.12.15 at 22h 19m 20s.xml">
+      <configuration name="End2EndFlow.testProductDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 09h 58m 49s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_testProductDetails - 2019.12.15 at 22h 19m 52s.xml">
+      <configuration name="End2EndFlow.testProductDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 08m 25s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_testProductDetails - 2019.12.15 at 22h 21m 49s.xml">
+      <configuration name="End2EndFlow.testProductDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 08m 49s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_getProducts - 2019.12.15 at 22h 51m 42s.xml">
+      <configuration name="End2EndFlow.getProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 09m 30s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_getProducts - 2019.12.15 at 22h 52m 38s.xml">
+      <configuration name="End2EndFlow.getProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 09m 56s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_getProducts - 2019.12.15 at 23h 15m 34s.xml">
+      <configuration name="End2EndFlow.getProducts" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 10m 33s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_testProductDetails - 2019.12.15 at 23h 15m 46s.xml">
+      <configuration name="End2EndFlow.testProductDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 10m 49s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_testProductDetails - 2019.12.15 at 23h 17m 11s.xml">
+      <configuration name="End2EndFlow.testProductDetails" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="BasicTest_testAllCurrencyAttribute - 2019.12.13 at 10h 14m 18s.xml">
-      <configuration name="BasicTest.testAllCurrencyAttribute" configurationId="TestNG" />
+    <history-entry file="End2EndFlow_testProductDetails - 2019.12.15 at 23h 18m 06s.xml">
+      <configuration name="End2EndFlow.testProductDetails" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -234,13 +451,13 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32941177" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48088235" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43382353" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -256,17 +473,113 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/CollectionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BasicTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/testconfig.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="72" column="4" lean-forward="true" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        <state>
+          <caret column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/ConfigReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/restUtil/BaseURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/restUtil/HelperMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#134#135#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testdata/RequestHeaders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/BasicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="140" column="45" selection-start-line="140" selection-start-column="28" selection-end-line="140" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4170#4186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testdata/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/suite/SuiteManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/End2EndFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="72" column="57" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="testsuite" verbose="1">
+    <test name="API Add Product test">
+        <classes>
+            <class name="tests.End2EndFlow"/>
+
+        </classes>
+    </test>
+</suite>

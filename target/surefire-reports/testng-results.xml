@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testsuite" duration-ms="11291" started-at="2019-12-15T23:35:35Z" finished-at="2019-12-15T23:35:47Z">
+    <groups>
+    </groups>
+    <test name="API Add Product test" duration-ms="11291" started-at="2019-12-15T23:35:35Z" finished-at="2019-12-15T23:35:47Z">
+      <class name="tests.End2EndFlow">
+        <test-method status="PASS" signature="getAuthorizationToken()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="getAuthorizationToken" is-config="true" duration-ms="3243" started-at="2019-12-15T23:35:35Z" finished-at="2019-12-15T23:35:39Z">
+        </test-method> <!-- getAuthorizationToken -->
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="addToCartTest" duration-ms="1392" started-at="2019-12-15T23:35:39Z" finished-at="2019-12-15T23:35:40Z">
+        </test-method> <!-- addToCartTest -->
+        <test-method status="PASS" signature="getProducts()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="getProducts" duration-ms="1462" started-at="2019-12-15T23:35:40Z" finished-at="2019-12-15T23:35:41Z">
+        </test-method> <!-- getProducts -->
+        <test-method status="PASS" signature="testCreateCart()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="testCreateCart" duration-ms="1163" started-at="2019-12-15T23:35:41Z" finished-at="2019-12-15T23:35:43Z">
+        </test-method> <!-- testCreateCart -->
+        <test-method status="PASS" signature="testViewCart()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="testViewCart" duration-ms="1180" started-at="2019-12-15T23:35:43Z" finished-at="2019-12-15T23:35:44Z">
+        </test-method> <!-- testViewCart -->
+        <test-method status="PASS" signature="testProductDetails()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="testProductDetails" duration-ms="1204" started-at="2019-12-15T23:35:44Z" depends-on-methods="tests.End2EndFlow.getProducts" finished-at="2019-12-15T23:35:45Z">
+        </test-method> <!-- testProductDetails -->
+        <test-method status="PASS" signature="testDeleteItem()[pri:0, instance:tests.End2EndFlow@77b52d12]" name="testDeleteItem" duration-ms="1633" started-at="2019-12-15T23:35:45Z" depends-on-methods="tests.End2EndFlow.testViewCart" finished-at="2019-12-15T23:35:47Z">
+        </test-method> <!-- testDeleteItem -->
+      </class> <!-- tests.End2EndFlow -->
+    </test> <!-- API Add Product test -->
+  </suite> <!-- testsuite -->
+</testng-results>
